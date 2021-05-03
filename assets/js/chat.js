@@ -2,7 +2,7 @@ import { getSocket } from "./sockets";
 
 const messages = document.getElementById("jsMessage");
 const sendMsg = document.getElementById("jsSendMsg");
-
+console.log(getSocket);
 const appendMsg = (text, nickname) => {
   const li = document.createElement("li");
   li.innerHTML = `
